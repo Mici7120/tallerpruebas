@@ -24,7 +24,7 @@ jobs:
       run: npm run test
 
     - name: Run esLint
-      run : npm runlint
+      run : npm run lint
 
     - name: Run coverage
       run : npm run test:coverage"
